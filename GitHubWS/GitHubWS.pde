@@ -4,8 +4,8 @@ void setup() {
 }
 
 void draw() {
-  textAlign(LEFT);
+  textAlign(CENTER);
   fill(0);
   textSize(16);
-  text("Hello world", 20, 20);
+  text("Hello world", width/2, height/2 );
 }
