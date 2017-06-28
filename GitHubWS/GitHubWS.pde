@@ -1,11 +1,11 @@
 void setup() {
   size(400, 400);
-  background(255);
+  background(0);
 }
 
 void draw() {
   textAlign(CENTER);
-  fill(0);
+  fill(255,0,0);
   textSize(16);
   text("Hello world", width/2, height/2 );
 }
